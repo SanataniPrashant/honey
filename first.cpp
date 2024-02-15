@@ -604,6 +604,102 @@ int main()
 // {
 //   cout<<"The no. is not a perfect no.";
 // }
+
+// ----------nested loop concepts-------
+
+// for(int r=1; r<=3; r++)
+// {
+//     for(int c=1;c<=r; c++)
+//     {
+//         cout<<"*"<<"\t";
+//     }
+//     cout<<"\n";
+// }
+
+// for(int r=3; r>=1; r--)
+// {
+//     for(int c=1; c<=r; c++)
+//     {
+//         cout<<"*"<<"\t";
+//     }
+//     cout<<"\n";
+// }
+
+// for(int r=1; r<=3; r++)
+// {
+//     for(int c=1; c<=r; c++)
+//     {
+//         cout<<r<<"\t";
+//     }
+//     cout<<"\n";
+// }
+
+
+// for(char r='A'; r<='C'; r++)
+// {
+//     for(char c='A'; c<=r; c++)
+//     {
+//         cout<<r<<"\t";
+//     }
+//     cout<<"\n";
+// }
+
+
+// for(int r=1; r<=3; r++)
+// {
+//     for(int c=1; c<=r; c++)
+//     {
+//         cout<<r<<"\t";
+//     }
+//     cout<<"\n";
+// }
+
+// int k=0;
+// for(int r=1; r<=3; r++)
+// {
+//     for(int c=1; c<=r; c++)
+//     {
+//         k++;
+//         cout<<k<<"\t";
+//     }
+//     cout<<"\n";
+// }
+
+// char s='a';
+// for(char r='a'; r<='c'; r++)
+// {
+//     for(char c='a'; c<=r; c++)
+//     {
+//         cout<<s<<"\t";
+//         s++;
+//     }
+//     cout<<"\n";
+// }
+
+// for(int r=3; r>=1; --r)
+// {
+//     for(int c=1; c<=r; c++)
+//     {
+       
+//         cout<<r<<"\t";
+//     }
+//     cout<<"\n";
+// }
+
+// int x=11;  int y=22;
+// if(++x==11 && ++y==23)
+// {
+//     cout<<x<<" "<<y;
+// }
+// else if(x++==12 && y--==23){
+//     cout<<x<<" "<<y;
+// }
+// else{
+// cout<<x<<" "<<y;
+// }
+
+
+
 return 0;
 }
 
